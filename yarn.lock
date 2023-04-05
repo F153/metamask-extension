@@ -3621,20 +3621,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/assets-controllers@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "@metamask/assets-controllers@npm:4.0.1"
+"@metamask/assets-controllers@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "@metamask/assets-controllers@npm:5.0.1"
   dependencies:
     "@ethersproject/bignumber": ^5.7.0
     "@ethersproject/contracts": ^5.7.0
     "@ethersproject/providers": ^5.7.0
     "@metamask/abi-utils": ^1.1.0
-    "@metamask/base-controller": ^1.1.2
-    "@metamask/contract-metadata": ^2.1.0
-    "@metamask/controller-utils": ^2.0.0
+    "@metamask/base-controller": ^2.0.0
+    "@metamask/contract-metadata": ^2.3.1
+    "@metamask/controller-utils": ^3.1.0
     "@metamask/metamask-eth-abis": 3.0.0
-    "@metamask/network-controller": ^4.0.0
-    "@metamask/preferences-controller": ^1.0.2
+    "@metamask/network-controller": ^6.0.0
+    "@metamask/preferences-controller": ^3.0.0
     "@metamask/utils": ^3.3.1
     "@types/uuid": ^8.3.0
     abort-controller: ^3.0.0
@@ -3648,8 +3648,8 @@ __metadata:
     single-call-balance-checker-abi: ^1.0.0
     uuid: ^8.3.2
   peerDependencies:
-    "@metamask/network-controller": ^4.0.0
-  checksum: 18d3212640a50d2ff56134bceb275718880b80fccddc8b52b325f9119a6fb06919935320b9604550bbda1fc73f13122b3d185330cb423a616daf8f465ace29e8
+    "@metamask/network-controller": ^6.0.0
+  checksum: aa2ab83752c121fe410f191660c4b57be9cc74cbe462e8c35b86077160c8d6640ccf19d0fa423c8123803e00ba6d7c9112d68b9e058c0fbac1df6210ad3be2b7
   languageName: node
   linkType: hard
 
@@ -3704,7 +3704,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/contract-metadata@npm:^2.1.0, @metamask/contract-metadata@npm:^2.3.1":
+"@metamask/contract-metadata@npm:^2.3.1":
   version: 2.3.1
   resolution: "@metamask/contract-metadata@npm:2.3.1"
   checksum: 95dcc27f661a3e380c0cca8c6d90fb1777e31ab3fe16909fd5c67844125510e3f8e9eca05c9069fde34c77df3b66e56111c7a908a07623e88052ef147eff4315
@@ -4074,19 +4074,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/network-controller@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "@metamask/network-controller@npm:4.0.0"
+"@metamask/network-controller@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "@metamask/network-controller@npm:6.0.0"
   dependencies:
-    "@metamask/base-controller": ^1.1.2
-    "@metamask/controller-utils": ^2.0.0
+    "@metamask/base-controller": ^2.0.0
+    "@metamask/controller-utils": ^3.1.0
+    "@metamask/swappable-obj-proxy": ^2.1.0
+    "@metamask/utils": ^3.3.1
     async-mutex: ^0.2.6
     babel-runtime: ^6.26.0
     eth-json-rpc-infura: ^5.1.0
     eth-query: ^2.1.2
     immer: ^9.0.6
+    uuid: ^8.3.2
     web3-provider-engine: ^16.0.3
-  checksum: 19dfa74cefc435f5205020c68b948956c52689cdfaa153dc37d116e866f61903396b4b19055975d6fc9ab4185b34e87a641eba8aebb864e9161ed5e561b35263
+  checksum: 5bbc0c1c876b7842d2a643962174880695df05b75164ddbd68e2ee62b352ad89525c49635ae256b11a035573bc0ea985a563f1bd86d84775d35afe8597c18dc5
   languageName: node
   linkType: hard
 
@@ -4241,13 +4244,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/preferences-controller@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "@metamask/preferences-controller@npm:1.0.2"
+"@metamask/preferences-controller@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@metamask/preferences-controller@npm:3.0.0"
   dependencies:
-    "@metamask/base-controller": ^1.1.2
-    "@metamask/controller-utils": ^2.0.0
-  checksum: 466fbe6919da3e9003a7325443fc9c3f609072b6bbfe2216ed66bca04b43cc2bb033a016f4d0f906dc1cf19a8ad0c1abe7e767c02c38684293f5e12423a89f1d
+    "@metamask/base-controller": ^2.0.0
+    "@metamask/controller-utils": ^3.1.0
+  checksum: e86d689270704b7ac72d1d72762d957e2ebca649fa3c354490cbc939eeaed22ce81d4ccfa1afba1167c3bbf17c9444286c7d79904820980007e1f8e8927dc588
   languageName: node
   linkType: hard
 
@@ -24279,7 +24282,7 @@ __metadata:
     "@metamask/address-book-controller": ^1.0.0
     "@metamask/announcement-controller": ^1.0.0
     "@metamask/approval-controller": ^1.0.0
-    "@metamask/assets-controllers": ^4.0.1
+    "@metamask/assets-controllers": ^5.0.1
     "@metamask/auto-changelog": ^2.1.0
     "@metamask/base-controller": ^1.0.0
     "@metamask/contract-metadata": ^2.3.1
